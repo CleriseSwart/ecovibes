@@ -1,0 +1,37 @@
+/* Styling for individual product cards */
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  /* Add spacing between product cards */
+  margin: 1rem;
+}
+
+/* Styling for product images */
+.product img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+/* Styling for product names */
+.product h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Styling for product descriptions */
+.product p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Styling for the last paragraph within a product card (product price) */
+.product p:last-child {
+  font-weight: bold;
+}

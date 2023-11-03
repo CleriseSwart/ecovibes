@@ -1,0 +1,22 @@
+/* Styling for the landing page container */
+.landing-page {
+  padding: 2rem 8rem;
+  text-align: justify;
+  background-image: url('/src/Images/about-banner.png'); 
+  background-size: cover; 
+  background-position: center;
+  color: #fff; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for h2 elements within the landing page */
+.landing-page h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Styling for p elements within the landing page */
+.landing-page p {
+  font-size: 1rem;
+  line-height: 1.5;
+}

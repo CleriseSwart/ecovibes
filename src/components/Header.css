@@ -1,0 +1,49 @@
+/* Styling for the header container */
+.header {
+  background-color: #ffffff; 
+  padding: 1rem; 
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+/* Styling for the logo */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 40px; 
+  height: 40px; 
+  margin-right: 10px; 
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  color: #333333; 
+}
+
+/* Styling for the navigation menu */
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 1rem; 
+  font-size: 1rem;
+  color: #333333; 
+  cursor: pointer;
+}
+
+nav ul li:last-child {
+  margin-right: 0; 
+}
+
+/* Styling for the login status */
+.login-status span {
+  font-size: 1rem;
+  color: #333333; 
+}
